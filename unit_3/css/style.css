@@ -12,7 +12,8 @@ h1{
   }
 
  .titles{
- 	font-style: italic;
+ 	font-style: 'Roboto', sans-serif;
+ 	font-style: black
  	color: red;
  }
 
