@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background:
+  background: url("https://i.gadgets360cdn.com/large/ubereats_main_1493714644355.jpg?output-quality=80");
   background-size: cover;
   color: #fff;
   font-family: Helvetica;
@@ -14,5 +14,4 @@ hr{
 p {
   font-size: 22px;
 }
-#link{color: red
-}
+#link{color: red}
