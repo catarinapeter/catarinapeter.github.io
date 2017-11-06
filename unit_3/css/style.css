@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:900|Rozha+One');
 body {
-  text-align: center;
-  background: url("https://i.gadgets360cdn.com/large/ubereats_main_1493714644355.jpg?output-quality=80");
-  background-size: cover;
-  color: #fff;
-  font-family: Helvetica;
-  }
+	font-family:'Rozha One', serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background:url(../images/ubereats_main_1493714644355.jpg);
+}
 h1{
-	font-family:'Roboto', sans-serif;;
+	font-family:'Roboto', sans-serif;
   	text-align: center;
   }
 
  .titles{
- 	font-style: 'Roboto', sans-serif;
- 	font-style: black
+ 	font-family: 'Roboto', sans-serif;
+	font-weight:900;
  	color: red;
  }
 
@@ -21,11 +20,6 @@ hr{
   width:200px;
 }
 p {
-	font-family:'Rozha One', serif;
-	font-size: 18px;
-	line-height: 1.5em;
-	margin: 2em;
+	margin: 2em 0;
 }
-  font-size: 22px;
-}
-#link{color: red}
+nav a {color: red;}
