@@ -7,14 +7,22 @@ body {
 	 /* nice color #c0dec5 */
 }
 header {
-	background:url(../images/ubereats_main_1493714644355.jpg);
-	background-size: cover;
-	padding: 100px 0;
+	padding: 20px 0;
+}
+
+
+img {
+	display: block;
+	margin: 0 auto;
 }
 
 #second{
-	background-color: blue;	
-}
+ 	background:url(../images/ubereats_main_1493714644355.jpg);
+ 	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	padding: 100px;
+	}
 
 h1{
 	font-family:'Roboto', sans-serif;
@@ -39,11 +47,18 @@ h2{
 hr{
   width:200px;
 }
+
 p {
+	font-family: Helvetica;
 	margin: 2em 0;
-	padding: 0auto;
+	padding: 0;
 }
-nav a {color: white;}
+nav a {
+	background-color: black;
+	color: white;
+	padding-right: 20px;
+}
+
 
 #intro {
 	background-color:black;
@@ -51,12 +66,16 @@ nav a {color: white;}
 	color: white;
 }
 
-display{
-	inline-block
+#options{
+	background:url(../images/options.jpg);
+	display: block;
+	size: center;
 
 }
 
+
 footer {
+  font-family:'Roboto', sans-serif, black; 
   text-align: center;
   padding: 1em 0;
 }
