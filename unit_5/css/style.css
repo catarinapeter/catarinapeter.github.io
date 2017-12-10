@@ -11,6 +11,11 @@ header {
 	background-size: cover;
 	padding: 100px 0;
 }
+
+#second{
+	background-color: blue;	
+}
+
 h1{
 	font-family:'Roboto', sans-serif;
   	text-align: center;
@@ -36,6 +41,7 @@ hr{
 }
 p {
 	margin: 2em 0;
+	padding: 0auto;
 }
 nav a {color: white;}
 
@@ -43,4 +49,14 @@ nav a {color: white;}
 	background-color:black;
 	padding: 10px;
 	color: white;
+}
+
+display{
+	inline-block
+
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
 }
