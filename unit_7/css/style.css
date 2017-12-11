@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900|Rozha+One');
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+body {
+	font-family:'Rozha One', serif;
+	font-size: 18px;
+	line-height: 1.5;
+	
+	 /* nice color #c0dec5 */
+}
+header {
+	padding: 20px 0;
+}
+
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+#second{
+ 	background:url(../images/ubereats_main_1493714644355.jpg);
+ 	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	padding: 100px;
+	}
+
+h1{
+	font-family:'Roboto', sans-serif;
+  	text-align: center;
+  }
+
+ .titles{
+ 	font-family: 'Roboto', sans-serif;
+	font-weight:900;
+ 	color: white;
+ }
+ 	
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight:900;
+ 	color: white;
+
+ 	}
+
+
+hr{
+  width:200px;
+}
+
+p {
+	font-family: Helvetica;
+	margin: 2em 0;
+	padding: 0;
+}
+
+nav {
+	font-size: 1.8em;
+ 	float: right;
+
+} 
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+nav a {
+	background-color: black;
+	color: white;
+	padding-right: 20px;
+	margin: 1.5em;
+  	display: inline-block;
+}
+
+
+#intro {
+	background-color:black;
+	padding: 10px;
+	color: white;
+}
+
+/*#options{
+	background:url(../images/options.jpg);
+	display: block;
+	size: center;
+
+}*/
+
+#services{
+  float: left;
+  clear: both;
+  float: left;
+  clear: both;
+}
+
+
+/*section #services {
+  background: #222;
+  color: #fff; 
+  overflow: auto;
+}*/
+
+ul{
+	display: block;
+	float: right;
+	width: 50%;
+	list-style-type: none
+  }
+
+li {
+  float: left;
+  border-bottom: 2px solid #fff;
+  width: 50%;
+  height: 6em;
+  text-align: center;
+  line-height: 6em; 
+  background: #c0dec5;
+}
+
+
+#choose{
+  float: left;
+  width: 50%;
+  height: 6em;
+  text-align: center;
+  line-height: 6em; 
+  background: #c0dec5;
+}
+
+
+}
+footer {
+  font-family:'Roboto', sans-serif, black; 
+  text-align: center;
+  padding: 1em 0;
+  clear: both;
+}
