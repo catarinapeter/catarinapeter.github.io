@@ -54,7 +54,11 @@ p {
 	padding: 0;
 }
 
-nav
+nav {
+	font-size: 1.8em;
+ 	float: right;
+} 
+
 nav a {
 	background-color: black;
 	color: white;
@@ -70,16 +74,37 @@ nav a {
 	color: white;
 }
 
-#options{
+/*#options{
 	background:url(../images/options.jpg);
 	display: block;
 	size: center;
 
+}*/
+
+#services{
+  float:right;
+  clear: both;
 }
 
+
+section #services {
+  background: #222;
+  color: #fff; 
+  overflow: auto;
+}
+
+li {
+  float: center;
+  width: 50%;
+  height: 6em;
+  outline: 3px solid #222;
+  text-align: center;
+  line-height: 6em; 
+}
 
 footer {
   font-family:'Roboto', sans-serif, black; 
   text-align: center;
   padding: 1em 0;
+  clear: both;
 }
