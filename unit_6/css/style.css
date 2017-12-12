@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:900|Rozha+One');
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
 body {
 	font-family:'Rozha One', serif;
 	font-size: 18px;
@@ -57,7 +62,28 @@ p {
 nav {
 	font-size: 1.8em;
  	float: right;
+
 } 
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
 
 nav a {
 	background-color: black;
@@ -82,26 +108,48 @@ nav a {
 }*/
 
 #services{
-  float:right;
+  float: left;
+  clear: both;
+  float: left;
   clear: both;
 }
 
 
-section #services {
+/*section #services {
   background: #222;
   color: #fff; 
   overflow: auto;
-}
+}*/
+
+ul{
+	display: block;
+	float: right;
+	width: 50%;
+	list-style-type: none
+  }
 
 li {
-  float: center;
+  float: left;
+  border-bottom: 2px solid #fff;
   width: 50%;
   height: 6em;
-  outline: 3px solid #222;
   text-align: center;
   line-height: 6em; 
+  background: #c0dec5;
 }
 
+
+#choose{
+  float: left;
+  width: 50%;
+  height: 6em;
+  text-align: center;
+  line-height: 6em; 
+  background: #c0dec5;
+}
+
+
+}
 footer {
   font-family:'Roboto', sans-serif, black; 
   text-align: center;

@@ -12,7 +12,7 @@ body {
 	 /* nice color #c0dec5 */
 }
 header {
-	padding: 20px 0;
+	padding: 2em 0;
 }
 
 
@@ -26,7 +26,7 @@ img {
  	background-size: cover;
 	display: block;
 	margin: 0 auto;
-	padding: 100px;
+	padding: 2em;
 	}
 
 h1{
@@ -88,7 +88,7 @@ a:active {
 nav a {
 	background-color: black;
 	color: white;
-	padding-right: 20px;
+	padding-right: 2em;
 	margin: 1.5em;
   	display: inline-block;
 }
@@ -96,7 +96,7 @@ nav a {
 
 #intro {
 	background-color:black;
-	padding: 10px;
+	padding: 1em;
 	color: white;
 }
 
@@ -130,7 +130,7 @@ ul{
 
 li {
   float: left;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2em solid #fff;
   width: 50%;
   height: 6em;
   text-align: center;
@@ -155,4 +155,10 @@ footer {
   text-align: center;
   padding: 1em 0;
   clear: both;
+}
+
+@media only screen and (max-width: 768px) {
+body{font-size: 24px
+
+	}
 }
