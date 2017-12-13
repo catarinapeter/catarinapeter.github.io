@@ -36,6 +36,7 @@ a{
 	font-size: 18px; 
 	text-decoration: none;
 	color: white;
+
 }
 
 #second{
@@ -74,6 +75,7 @@ p {
 	font-family: Helvetica;
 	margin: 2em 0;
 	padding: 0;
+  color: black;
 }
 
 /*nav {
@@ -102,19 +104,26 @@ a:active {
     color: #0000FF;
 }
 
-/*nav a {
-	background-color: black;
+nav a {
+	background-color: none;
 	color: white;
 	padding-right: 2em;
 	margin: 1.5em;
-  	display: inline-block;
+  display: inline-block;
+  float: right;
+
 }
-*/
+
 
 #intro {
 	background-color:black;
 	padding: 1em;
 	color: white;
+}
+
+
+#intro p{
+  color: white;
 }
 
 /*#options{
@@ -134,28 +143,35 @@ a:active {
 }
 
 
-/*section #services {
-  background: #222;
-  color: #fff; 
-  overflow: auto;
-}*/
+#box {
+  float: left;
+  height: 100px;
+  width: 120px;
+  margin: 20px;
+  padding: 10px;
+  border: solid;
+  border-radius: 10px;
+  background: #000;
+  display: block;
+}
 
-div ul{
-	display: block;
-	float: right;
-	width: 50%;
-	list-style-type: none
-  }
-
-li img{
+#box img {
   float: left;
   border-bottom: 2em solid #fff;
-  width: 50%;
-  height: 6em;
+  width: 25%;
+  height: 25%;
   text-align: center;
   line-height: 6em; 
   background: #c0dec5;
+
 }
+
+
+#box p {
+  float: right;
+  color: white;
+}
+
 
 
 #choose{
@@ -169,36 +185,23 @@ li img{
 
 }
 
-#services{
-
-
-}
-
-
-li img{ 
-  width:12.5;
-  float: left;
-  height: 100px;
-  width: 350px;
-  margin: 20px;
-  padding: 10px;
-  border: solid;
-  border-radius: 10px;
-  background: #000;
-}
-
-
-li p{
-  align-content: center;
-
-}
 
 #contact {
-  color: black;
+  color: #FFF885;
   margin: 0 auto;
   align-content: left;
   display: block;
   clear: both;
+  text-align: center;
+}
+
+#contact a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Roboto';
+  padding-right: 3em;
+  text-align: center;
+
 }
 
 
@@ -209,6 +212,7 @@ footer {
   padding: 1em 0;
   clear: both;
   display: block;
+
   }
 
 @media only screen and (max-width: 768px) {
