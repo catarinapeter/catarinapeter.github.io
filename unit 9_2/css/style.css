@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900|Rozha+One');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: 'Rozha One', serif;
+  line-height: 1.5;
+
+  /* nice color #c0dec5 */
+}
+
+header {
+  padding: 2em 0;
+  display: block;
+  background-color: #FFF885;
+}
+
+.navigation-bar {
+  background-size: cover;
+  padding: 1em;
+  margin: auto;
+  width: auto;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+}
+
+a {
+  padding-left: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+
+}
+
+#second {
+  background: url(../images/ubereats_main_1493714644355.jpg);
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+  padding: 8em;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.titles {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+
+}
+
+hr {
+  width: 200px;
+}
+
+p {
+  font-family: Helvetica;
+  margin: 2em 0;
+  padding: 0;
+  color: black;
+}
+
+/*nav {
+	font-size: 1.8em;
+ 	float: right;
+
+} 
+*/
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+nav a {
+  background-color: none;
+  color: white;
+  padding-right: 2em;
+  margin: 1.5em;
+  display: inline-block;
+  float: right;
+
+}
+
+#intro {
+  background-color: black;
+  padding: 1em;
+  color: white;
+}
+
+#intro p {
+  color: white;
+}
+
+/*#options{
+	background:url(../images/options.jpg);
+	display: block;
+	size: center;
+
+}*/
+
+.clearfix {
+  clear: both;
+}
+
+.clearfix:after {
+  display: block;
+  content: ".";
+  font-size: 0;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+#choose{
+  float: left;
+  width: 50%;
+  height: 6em;
+  text-align: center;
+  line-height: 6em;
+  background: #c0dec5;
+  display: inline-block;
+
+}
+
+#contact {
+  color: #FFF885;
+  margin: 0 auto;
+  align-content: left;
+  display: block;
+  clear: both;
+  text-align: center;
+}
+
+#contact a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Roboto';
+  padding-right: 3em;
+  text-align: center;
+
+}
+
+footer {
+  font-family: 'Roboto', sans-serif, black;
+  text-align: center;
+  padding: 1em 0;
+  clear: both;
+  display: block;
+
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 24px
+
+  }
+}
+
+/* STEPS */
+
+.box {
+  border: solid;
+  border-radius: 10px;
+  background: #000;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.box.right {
+  margin-right: 10px;
+}
+
+.box.left {
+  margin-left: 10px;
+}
+
+.box p {
+  color: white;
+}
+
+.steps {
+  margin-top: 50px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.leftText {
+  width: 80%;
+  float: left;
+  text-align: right;
+}
+
+.leftImage {
+  width: 18%;
+  float: right;
+  margin-right: 2%;
+}
+
+.rightText {
+  width: 80%;
+  float: right;
+  text-align: left;
+}
+
+.rightImage {
+  width: 18%;
+  float: left;
+  margin-left: 2%;
+}
+
+.half {
+  width: 48%;
+}
+
+.steps img {
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .box {
+    border: solid;
+    border-radius: 10px;
+    background: #000;
+    display: block;
+    margin: 10px 1% 0 1%;
+    height: 100px;
+  }
+
+  .box.right {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .box.left {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .steps {
+    margin-top: 50px;
+  }
+
+  .right {
+    float: none;
+  }
+
+  .left {
+    float: none;
+  }
+
+  .leftText {
+    width: 80%;
+    float: left;
+    text-align: right;
+  }
+
+  .leftImage {
+    width: 18%;
+    float: right;
+    margin-right: 2%;
+  }
+
+  .rightText {
+    width: 80%;
+    float: left;
+    text-align: right;
+  }
+
+  .rightImage {
+    width: 18%;
+    float: right;
+    margin-right: 2%;
+    margin-left: 0;
+  }
+
+  .half {
+    width: 97%;
+  }
+
+  .steps img {
+    border-radius: 5px;
+  }
+}
