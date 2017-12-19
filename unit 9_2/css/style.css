@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -17,27 +17,28 @@ body {
 header {
   padding: 2em 0;
   display: block;
-  background-color: #FFF885;
+  background-color: white;
 }
 
 .navigation-bar {
-  background-size: cover;
+  background-size: white;
   padding: 1em;
   margin: auto;
   width: auto;
   text-align: center;
   display: inline-block;
   vertical-align: top;
+  color: black;
+  float: right;
 }
 
-}
 
 a {
   padding-left: 2em;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   text-decoration: none;
-  color: white;
+  color: black;
 
 }
 
@@ -189,16 +190,52 @@ footer {
   }
 }
 
-/* STEPS */
+/*/* STEPS */
 
 .box {
   border: solid;
   border-radius: 10px;
   background: #000;
   display: block;
-  margin-bottom: 10px;
+  width: 48%;
+  margin: 1%;
+  float: left;  
 }
 
+
+.box.right {
+  margin-right: 10px;
+  float: left;
+  display: block;
+}
+
+.box.left {
+  margin-right: 10px;
+  float: right;
+  display: block;
+}
+
+.box img{
+  border-radius: 10px;
+
+}
+
+
+img .left {
+  margin-left: 10px;
+  float: right;
+}
+
+p.left{
+
+  float: left;
+}
+
+
+p.right{
+  float: left;
+}
+/*
 .box.right {
   margin-right: 10px;
 }
@@ -254,6 +291,9 @@ footer {
 .steps img {
   border-radius: 5px;
 }
+*/
+
+
 
 @media (max-width: 600px) {
   .box {
@@ -261,10 +301,11 @@ footer {
     border-radius: 10px;
     background: #000;
     display: block;
-    margin: 10px 1% 0 1%;
+    margin: 1% 1% 0 1%;
     height: 100px;
   }
 
+/*
   .box.right {
     margin-right: 1%;
     margin-left: 1%;
@@ -319,4 +360,4 @@ footer {
   .steps img {
     border-radius: 5px;
   }
-}
+}/
