@@ -16,20 +16,97 @@ body {
 }
 
 header {
-  padding: 2em 0;
+  padding: 100px;
   display: block;
   background-color: white;
 }
 
-.navigation-bar {
-  background: #4c9220;
-  margin: auto;
-  width: auto;
-  text-align: center;
+.row {
+  width: 100%;
+  display:block;
+  margin: 20px 0 20px 0;
+}
+
+.mobile-row {
+  width: 100%;
+  display:block;
+}
+
+.row-container {
+  width: 24.6%;
+  padding: 0 10px;
   display: inline-block;
   vertical-align: top;
+}
+
+.mobile-row-container {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.show-for-mobile {
+  display: none;
+}
+
+.show-for-desktop {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+  body {
+    font-size: 10px;
+  }
+
+  .show-for-mobile {
+    display: block;
+  }
+
+  .show-for-desktop {
+    display: none;
+  }
+}
+
+.logo {
+  width:130px;
+  top:50px;
+  left:10px;
+  position: absolute;
+}
+
+.mobile-logo {
+  width:130px;
+  display: block;
+  margin:auto;
+  padding-top: 20px;
+}
+
+.nav-container {
+  margin: auto;
+  text-align: center;
+  float:right;
+  height: 400px;
+}
+
+.nav-container {
+  margin: auto;
+  text-align: center;
+}
+
+.mobile-nav-container {
+  background: #4c9220;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
   color: white;
-  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color:green;
 }
 
 .navigation-bar ul.menu {
@@ -37,11 +114,6 @@ header {
     color: #fff;
 }
 
-.logo{
-  float: left;
-  position: relative;
-
-}
 .navigation-bar ul{
     list-style-type: none;
     padding: 0;
@@ -50,8 +122,12 @@ header {
 
 }
 
-li{
- float:left;
+.mobile-navigation-bar {
+  margin:auto;
+}
+
+.desktop-link {
+  float:left;
 }
 
 li a {
@@ -69,7 +145,7 @@ li a {
 
 }
 
-    
+
 #second {
   background: url(../images/ubereats_main_1493714644355.jpg);
   background-size: cover;
@@ -115,7 +191,7 @@ p {
 	font-size: 1.8em;
  	float: right;
 
-} 
+}
 */
 /* unvisited link */
 a:link {
@@ -138,7 +214,7 @@ a:active {
 }
 
 nav a {
-  background-color: none;
+  background-color: transparent;
   color: white;
   padding-right: 2em;
   margin: 1.5em;
@@ -155,27 +231,6 @@ nav a {
 
 #intro p {
   color: white;
-}
-
-/*#options{
-	background:url(../images/options.jpg);
-	display: block;
-	size: center;
-
-}*/
-
-.clearfix {
-  clear: both;
-  display: block;
-}
-
-.clearfix:after {
-  display: block;
-  content: ".";
-  font-size: 0;
-  clear: both;
-  height: 0;
-  visibility: hidden;
 }
 
 #choose{
@@ -216,22 +271,15 @@ footer {
 
 }
 
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 24px
-
-  }
-}
-
 /*/* STEPS */
 
 .box {
   border-radius: 10px;
   background: #4c9220;
-  display: block;
+  /*display: block;
   width: 46%;
   margin: 2%;
-  float: left;  
+  float: left;  */
 }
 
 
@@ -275,14 +323,3 @@ p.right{
 footer{
     background: #ccc;
 }
-}
-
-
-@media (max-width: 600px) {
-  .box {
-    border-radius: 10px;
-    background: #000;
-    display: block;
-    margin: 1% 1% 0 1%;
-    height: 100px;
-  }
