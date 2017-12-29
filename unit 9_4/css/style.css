@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900|Rozha+One');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rozha One', serif;
+  line-height: 1.5;
+  background: #ededed;
+
+  /* nice color #c0dec5 */
+}
+
+.header {
+  display: block;
+}
+
+.mobile-header {
+  background-color: #4c9220;
+  display: block;
+}
+
+.row {
+  width: 100%;
+  display:block;
+  margin: 20px 0 20px 0;
+}
+
+.mobile-row {
+  width: 100%;
+  display:block;
+}
+
+.row-container {
+  width: 24.6%;
+  padding: 0 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mobile-row-container {
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.show-for-mobile {
+  display: none;
+}
+
+.show-for-desktop {
+  display: block;
+}
+
+@media only screen and (max-width: 924px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  .show-for-mobile {
+    display: block;
+  }
+
+  .show-for-desktop {
+    display: none;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+}
+
+.logo {
+  width:130px;
+  display: block;
+  margin:auto;
+  padding-top: 20px;
+}
+
+.nav-container {
+  margin: auto;
+  text-align: center;
+}
+
+.nav-container {
+ background: #4c9220;
+  margin: auto;
+  text-align: center;
+}
+
+.mobile-nav-container {
+  background: #4c9220;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navigation-bar {
+    background-color: #4c9220;
+}
+
+.navigation-bar ul.menu {
+    border-radius: 2px;
+    color: #fff;
+    position: relative;
+    right:10px;
+}
+
+.navigation-bar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.mobile-navigation-bar {
+  margin:auto;
+}
+
+.desktop-link {
+  float:left;
+}
+
+li a {
+  display: block;
+  padding-left: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+
+}
+
+.navigation-bar ul.menu.gree li .active {
+  background: #356f10
+
+}
+
+
+#second {
+  background: url(../images/ubereats_main_1493714644355.jpg);
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  padding-top: 130px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: green;
+  font-size: 2em;
+}
+
+.titles {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+
+}
+
+hr {
+  width: 200px;
+}
+
+p {
+  font-family: Helvetica;
+  padding: 0;
+  color: #6b6868;
+}
+
+.box p{
+  color: white;
+}
+
+.footer-message {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: #fff;
+}
+
+/* visited link */
+a:visited {
+  color: #c0dec5;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+nav a {
+  color: white;
+  padding-right: 2em;
+  margin: 1.5em;
+  display: inline-block;
+
+}
+
+.black {
+    color:black;
+}
+
+.white {
+    color:white;
+}
+
+#intro {
+    margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+#choose{
+  float: left;
+  width: 50%;
+  height: 6em;
+  text-align: center;
+  line-height: 6em;
+  background: #c0dec5;
+  display: inline-block;
+
+}
+
+#contact {
+  color: #FFF885;
+  margin: 0 auto;
+  align-content: left;
+  display: block;
+  clear: both;
+  text-align: center;
+}
+
+#contact a {
+  color: #6b6868;
+  text-decoration: none;
+  font-family: 'Roboto';
+  text-align: center;
+
+}
+
+footer {
+  font-family: 'Roboto', sans-serif, black;
+  text-align: center;
+  padding: 1em 0;
+  clear: both;
+  display: block;
+
+}
+
+/*/* STEPS */
+
+.box {
+  border-radius: 10px;
+  background: #4c9220;
+  padding: 10px;
+}
+
+.img-box {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.img-box img{
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+img .left {
+  margin-left: 10px;
+  float: right;
+}
+
+p.left{
+
+  float: left;
+}
+
+
+p.right{
+  float: left;
+}
+
+.contact-links {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-bottom: 50px;
+}
+
+.mobile-contact-links {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 50px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+footer{
+    background: #ccc;
+}
